@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixedtop navbar-expand-sm navbar-dark container-fluid" style="background-color: rgb(26, 26, 26);">
+        <nav class="navbar fixedtop navbar-expand-sm navbar-dark container-fluid" style="background-color: rgb(29, 29, 29)">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/bookStoreLogo.png" alt="logo" width="75" height="75" class="d-inline-block align-top">
@@ -26,10 +26,11 @@
                         <li class="nav-item mx-5">
                             <a class="nav-link" href="about_us.html">About us</a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="contact_us.html">Contact Us</a>
-                        </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -37,6 +38,9 @@
             </div>
         </nav>
     </header>
+    <div class="joinMembership text-center w-100 py-2">
+        <p class="display-6">Join premium for $39.99 year <a href="membership.html" class="button link-warning">Sign Up</a></li></p>
+    </div>
     <main>
         <form action="categories.html">
             <div class="container">
@@ -56,7 +60,7 @@
                 <br>
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
             
-                <input id="membershipJoined" type="submit"/>
+                <input id="membershipSubmit" type="submit"/>
             
             </div>
           </form>

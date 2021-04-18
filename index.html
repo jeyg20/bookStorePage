@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixedtop navbar-expand-sm navbar-dark container-fluid" style="background-color: rgb(26, 26, 26);">
+        <nav class="navbar fixedtop navbar-expand-sm navbar-dark container-fluid" style="background-color: rgb(29, 29, 29)">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/bookStoreLogo.png" alt="logo" width="75" height="75" class="d-inline-block align-top">
@@ -21,18 +21,16 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item mx-5">
-                            <a class="nav-link" href="categories.html">Book Categories</a>
-                        </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="membership.html">Membership Library</a>
+                            <a class="nav-link" href="categories.html">Books</a>
                         </li>
                         <li class="nav-item mx-5">
                             <a class="nav-link" href="about_us.html">About us</a>
                         </li>
-                        <li class="nav-item mx-5">
-                            <a class="nav-link" href="contact_us.html">Contact Us</a>
-                        </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
@@ -40,7 +38,11 @@
             </div>
         </nav>
     </header>
+    <div class="joinMembership  text-center w-100 py-2">
+        <p class="display-6">Join premium for $39.99 year <a href="membership.html" class="button link-warning">Sign Up</a></li></p>
+    </div>
     <main>
+        
         <!-- carousel -->
         <div id="homePageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -91,11 +93,14 @@
         <!-- carousel --> 
         <!-- home info -->
         <section class="container my-5 p-5" >
-            <h1 class="display-1"> Welcome To Books Shop </h1>
-            <h2 class="display-6 mt-5">"Are your looking for a book ?" </h2>
-            <p class="text-body my-4">
-                In our store you will fine any book that you need
-            </p>
+            <div class="text-body my-5 px-5"></div>
+                <h1 class="display-1 px-5"> Welcome To Books Shop </h1>
+                <h2 class="display-4 mt-5 px-5">"Are your looking for a book ?" </h2>
+                <br>
+                <p class="px-5">In our store you will fine any book that you need</p>
+                <br>
+                <p class="px-5">Stop that endless search when for books, you will no longer need to access those crappy pages that will just place viruse in device, whit our enourmous library you will have access to every corner of writrings</p>
+            </div>
         </section>
         <!-- home info -->
     </main>

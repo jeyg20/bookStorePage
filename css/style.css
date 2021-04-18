@@ -13,19 +13,47 @@ header {
 /* Header */
 /* Main */
 main {
-    font-size: 1.6em;
+    font-size: 1.8rem;
 }
 .homeSlide {
     filter: blur(1px) brightness(60%);
 
 }
-#accordionCuriosities{
-    width: 60vw;
+/* bookstore */
+#accordionId {
+    width: 600px;
+    margin: 30px 0px;
 }
+#accordionId  img {
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+}
+#accordion > h1 {
+    font-size: 1.6rem;
+}
+.source, .source li {
+    display: inline-block;
+}
+#cart {
+    overflow: auto;
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+}
+#cart img {
+    object-fit: cover;
+    width: 80px;
+    height: 130px;
+    margin: 10px;
+}
+#cart li {
+    display: inline-block;
+}
+/* bookstore */
 
 /* membership */
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -42,27 +70,6 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
@@ -73,11 +80,6 @@ button:hover {
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
 }
 
 /* Clear floats */
@@ -94,14 +96,20 @@ button:hover {
   }
 }
 /* membership */
+
 /* Main */
 
-/* Footer */
-
-/* Footer */
 
 /* Global */
 a {
     text-decoration: none;
+}
+.joinMembership {
+    display: block;
+    overflow: auto;
+    background-color: rgb(0, 152, 253);
+}
+.joinMembershipActive{
+    display: none;
 }
 /* Global */
